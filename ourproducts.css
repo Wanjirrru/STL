@@ -4,7 +4,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: rgb(233, 231, 231);
+    font-family: sans-serif;
 }
 .navbar{
 	background-color: white;
@@ -17,7 +17,6 @@ body{
 	display: flex;
 }
 .logo {
-	
 	line-height: 65px;
 	padding-left: 50px;
 }
@@ -38,12 +37,6 @@ body{
 	display: flex;
 	line-height: 70px;
 	padding-left: 300px;
-
-}
-.footer{
-    width: 102%;
-    background-color: rgb(31, 31, 31);
-    margin-top: 25px;
 }
 
 .one{display: flex;background-color: aliceblue;}
@@ -89,15 +82,6 @@ body{
     height: 150px;
   
 }
-.six{
-    background-color:skyblue;
-    text-align: center;
-    height: 100px;
-    width: 600px;
-    margin-left: 300px;
-    border-radius: 5%;
-    
-}
 h4{
     color: azure;
     text-align: center;
@@ -133,110 +117,97 @@ h6{
     font-size: xx-large;
     padding-top:20px ;
 }
-#request{
-    padding: 10px 5%;
-width: 100%;
-height: 70vh;
-background-color: #353535;
-display: flex;
-justify-content: space-between;
-color: #fff;
+footer{
+    background-color: #353434;
 }
-.left-side img{
-    padding-left: 150px;
-    padding-top: 90px;
-}
-.left-side p{
-    margin-top: 10px;
-    padding-left: 177px;
-    font-family: sans-serif;
-    color:rgb(186, 186, 186);
-}
-.left-side button{
-background-color: #353535;
-float: left;
-float: right;
-height: 55px;
-border: none;
-font-size: 16px;
-box-shadow: 4px 4px rgba(0,0,0,.3), -4px -4px rgba(0,0,0,.3);
-color: rgb(186, 186, 186);
-border-radius: 5px;
-padding-left: 150px;
-justify-content: center;
-align-items: center;
-text-align: center;
-
-}
-.right-side{
+.section9{
     display: flex;
-    font-size: 15px;
-    margin-top: 5%;
+    flex-direction: row;
+    background-color: #353434;
+    height: 460px;
 }
-.right-side div{
-    margin: 35px;
+.end1{
+    margin-left: 15vw;
+    margin-top: 6vw;
+    margin-right:8vw;
 }
-.right-side h4{
-    margin-bottom: 20%;
+.bdr{
+    border-left:1px solid #a8a7a7;
+    height:25vw;
+    margin-top: 3.7vw;
+    margin-left:2vw; 
+    padding-left: 6vw;
 }
-.right-side p{
-    line-height: 20px;
-    color: rgb(143, 140, 140);
-    padding-right: 130px;
-}
-.horizontal-line{
-    width: 1px;
-    background-color: darkgray;
-    margin-top: 30px;
-}
-.foot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5%;
-    width: 100%;
-    background-color: #353535;
-    color: white;
-    height: 200px;
-}
-.icons i{
-    margin: 10px;
-    color: black;
-    padding: 5px;
-}
-hr{
-    border: 0.01px solid;
-    color: rgb(75, 75, 75);
-}
-
-.map-form{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.form1{
-    background-color: white;
-    padding: 50px;
-    border-radius: 20px;
-    margin-left: 20px;
-
-}
-
-.boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 90px 0;
-
-}
-
-.box1 ,.box2, .box3{
-    background-color:#fff;
-    border-radius: 20px;
-    font-size: large;
-    font-weight: 500px;
-    padding: 35px;
-    width: 350px;
+.CTA{
+    width: 80%;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    border-radius: 2vw;
+    border-bottom-left-radius: 0vw;
+    border-bottom-right-radius: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2vw;
+    font-weight: bolder;
+    font-stretch: wider;
+    letter-spacing: 1px;
     text-align: center;
+    padding-top: 6vw;
+    color: rgb(44, 54, 91);
+    background-color: rgb(216, 230, 234);
+}
+.section9 h5{
+    font-family:sans-serif;
+    font-size: 1.5vw;
+    padding-bottom: 1vw;
+    padding-left: 0.8vw;
+    color: #000;
+}
+.section9 h6{
+    padding:0.7vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #000;
+}
+.end3 h6{
+padding:0.9vw;
+}
+.s{
+  margin:0.4vw;
+  padding: 1vw;
+  color: #a8a7a7;
+  font-size: 19px;
+  margin-top: 3vw;
+  
+}
+.app{
+    background-color: #353434; 
+    height:22vw;  
+}
+#apps{
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    border-radius:0.35vw;
+    width:12vw;
+    background-color: #353434;
+    border-color: #474646;
+    color: #a8a7a7;
+    font-size:18px;
+    font-weight: 600;
+    margin-top: 1.5vw;
+    cursor: pointer;
+}
+.head{
+    margin-left: 15vw;
+}
+.head li{
+    list-style-type: none;
+    display: inline;
+}
+.custom-hr{
+    border: none;
+    border-bottom: 1px solid #4d4d4d;
+    width: 84%;
+    margin-left:13.5vw;
+    margin-top:6vw;
 }
